@@ -3,41 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seu Nome | Desenvolvedor & Soluções Digitais</title>
+    <title>DevLocal | Soluções Digitais para seu Negócio</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-900 text-white font-sans">
+<body class="bg-slate-50 text-slate-800 font-sans">
 
-    <header class="h-screen flex flex-col justify-center items-center text-center p-6">
-        <h1 class="text-5xl md:text-7xl font-bold text-blue-500 mb-4">Olá, eu sou Hugo Klhen</h1>
-        <p class="text-xl md:text-2xl text-gray-300 max-w-2xl">
-            Ajudo empresas a venderem mais através de Landing Pages profissionais e soluções inteligentes de dados.
-        </p>
-        <div class="mt-8 flex gap-4">
-            <a href="#contato" class="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-lg font-bold transition">Solicitar Orçamento</a>
-            <a href="https://github.com/SEU-USUARIO" target="_blank" class="border border-gray-600 hover:bg-gray-800 px-8 py-3 rounded-lg transition">Ver GitHub</a>
-        </div>
+    <header class="fixed w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-600">Dev<span class="text-slate-900">Local</span></div>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#servicos" class="hover:text-blue-600 transition">Serviços</a>
+                <a href="#beneficios" class="hover:text-blue-600 transition">Por que ter um site?</a>
+                <a href="#contato" class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">Solicitar Orçamento</a>
+            </div>
+        </nav>
     </header>
 
-    <section class="py-20 bg-gray-800">
-        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-10">
-            <div class="p-6 bg-gray-900 rounded-xl border-t-4 border-blue-500">
-                <h3 class="text-2xl font-bold mb-2">Landing Pages</h3>
-                <p class="text-gray-400">Páginas de alta conversão focadas em transformar visitantes em clientes via WhatsApp.</p>
-            </div>
-            <div class="p-6 bg-gray-900 rounded-xl border-t-4 border-green-500">
-                <h3 class="text-2xl font-bold mb-2">Análise de Dados</h3>
-                <p class="text-gray-400">Dashboards e relatórios para você entender exatamente de onde vem seu lucro.</p>
-            </div>
-            <div class="p-6 bg-gray-900 rounded-xl border-t-4 border-purple-500">
-                <h3 class="text-2xl font-bold mb-2">Emissão de NF</h3>
-                <p class="text-gray-400">Atendimento profissional com contrato e nota fiscal para sua segurança.</p>
+    <section class="pt-32 pb-20 px-6">
+        <div class="container mx-auto text-center max-w-4xl">
+            <span class="bg-blue-100 text-blue-700 px-4 py-1 rounded-full text-sm font-semibold uppercase tracking-wide">Foco em Empresas de [Sua Cidade]</span>
+            <h1 class="text-4xl md:text-6xl font-extrabold mt-6 leading-tight">
+                Transforme seu comércio local em uma <span class="text-blue-600">potência digital</span>.
+            </h1>
+            <p class="text-lg text-slate-600 mt-6 mb-10 max-w-2xl mx-auto">
+                Crio sites profissionais e sistemas de agendamento que trazem mais clientes da nossa região direto para a sua porta.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#contato" class="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-700 shadow-lg shadow-blue-200 transition">Quero modernizar meu negócio</a>
+                <a href="https://wa.me/seunumeroaqui" class="bg-green-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-green-600 shadow-lg shadow-green-200 transition flex items-center justify-center">
+                    <i class="fab fa-whatsapp mr-2"></i> Falar no WhatsApp
+                </a>
             </div>
         </div>
     </section>
 
-    <footer id="contato" class="py-10 text-center text-gray-500">
-        <p>© 2026 Hugo Klhen - CNPJ: 62.459.553/0001-64. Todos os direitos reservados.</p>
+    <section id="servicos" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">Como posso ajudar seu negócio?</h2>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="p-8 border border-slate-100 rounded-2xl bg-slate-50 hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-blue-600 text-white rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-store text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Sites para Comércio</h3>
+                    <p class="text-slate-600">Cardápios digitais, catálogos e landing pages para converter visitantes em compradores locais.</p>
+                </div>
+                <div class="p-8 border border-slate-100 rounded-2xl bg-slate-50 hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-blue-600 text-white rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-calendar-check text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Sistemas de Agendamento</h3>
+                    <p class="text-slate-600">Ideal para clínicas, barbearias e pet shops. Automatize sua agenda e reduza faltas.</p>
+                </div>
+                <div class="p-8 border border-slate-100 rounded-2xl bg-slate-50 hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-blue-600 text-white rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-search-location text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Google Meu Negócio</h3>
+                    <p class="text-slate-600">Otimização para sua empresa aparecer no topo quando alguém buscar pelo seu serviço na cidade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios" class="py-20 bg-blue-900 text-white">
+        <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-3xl font-bold mb-6">Por que sua empresa precisa estar online hoje?</h2>
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <i class="fas fa-check-circle text-green-400 mt-1 mr-3"></i>
+                        <span><strong>Visibilidade 24/7:</strong> Seu negócio aberto para consultas mesmo após o horário comercial.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check-circle text-green-400 mt-1 mr-3"></i>
+                        <span><strong>Credibilidade:</strong> 80% dos clientes pesquisam no Google antes de visitar uma loja física.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check-circle text-green-400 mt-1 mr-3"></i>
+                        <span><strong>Facilidade:</strong> Receba pedidos e agendamentos de forma automática e organizada.</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-blue-800 p-8 rounded-3xl border border-blue-700 shadow-2xl">
+                <p class="italic text-lg mb-4 text-blue-100">"Depois que o [Seu Nome] criou nosso sistema de pedidos, nossas vendas pelo WhatsApp dobraram e o atendimento ficou muito mais rápido!"</p>
+                <div class="flex items-center">
+                    <div class="w-12 h-12 bg-slate-300 rounded-full mr-4"></div>
+                    <div>
+                        <p class="font-bold">Ricardo Silva</p>
+                        <p class="text-sm text-blue-300">Dono da Padaria Central</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="py-20">
+        <div class="container mx-auto px-6 max-w-3xl text-center">
+            <h2 class="text-3xl font-bold mb-4">Vamos fazer seu negócio crescer?</h2>
+            <p class="text-slate-600 mb-10">Deixe seus dados e eu entrarei em contato para uma consultoria gratuita de 15 minutos.</p>
+            
+            <form class="grid grid-cols-1 gap-4 text-left bg-white p-8 rounded-2xl shadow-lg border border-slate-100">
+                <div>
+                    <label class="block text-sm font-semibold mb-2">Nome do Negócio</label>
+                    <input type="text" class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ex: Oficina do João">
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold mb-2">WhatsApp</label>
+                    <input type="tel" class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="(00) 00000-0000">
+                </div>
+                <button type="submit" class="w-full bg-blue-600 text-white font-bold py-4 rounded-lg mt-4 hover:bg-blue-700 transition shadow-lg">Enviar Solicitação</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-400 py-10">
+        <div class="container mx-auto px-6 text-center">
+            <p>© 2026 DevLocal - Hugo Klhen - CNPJ: 62.459.553/0001-64. Desenvolvendo soluções para quem move a nossa cidade.</p>
+        </div>
     </footer>
 
 </body>
