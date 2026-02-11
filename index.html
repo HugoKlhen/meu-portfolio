@@ -4,38 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hugo Klhen | Desenvolvedor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Hugo Klhen</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+    <header class="hero">
+        <div class="container">
+            <h1>Olá, eu sou <span class="highlight">Hugo Klhen</span></h1>
+            <nav>
+                <ul class="cta-buttons" style="list-style: none; display: flex; gap: 15px; justify-content: center; padding: 0;">
+                    <li><a href="#sobre" class="btn-secondary" style="text-decoration: none;">Sobre Mim</a></li>
+                    <li><a href="#servicos" class="btn-secondary" style="text-decoration: none;">Serviços</a></li>
+                    <li><a href="#contato" class="btn-primary" style="text-decoration: none;">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section id="inicio">
-            <h2>Transformando ideias em soluções digitais.</h2>
-            <p>Desenvolvedor focado em Landing Pages e Análise de Dados.</p>
-            <button>Solicitar Orçamento</button>
+        <section id="inicio" class="hero" style="height: auto; padding: 50px 0;">
+            <div class="container">
+                <h2>Transformando ideias em soluções digitais.</h2>
+                <p>Desenvolvedor focado em Landing Pages e Análise de Dados.</p>
+                <div class="cta-buttons">
+                    <button class="btn-primary">Solicitar Orçamento</button>
+                </div>
+            </div>
         </section>
 
-        <section id="servicos">
-            <h2>Meus Serviços</h2>
-            <ul>
-                <li>Desenvolvimento de Landing Pages</li>
-                <li>Otimização de Google Meu Negócio</li>
-                <li>Sistemas de Agendamento</li>
-            </ul>
+        <section id="servicos" class="services">
+            <div class="container">
+                <h2 style="text-align: center; margin-bottom: 30px;">Meus Serviços</h2>
+                <div class="grid">
+                    <div class="card blue">
+                        <h3>Landing Pages</h3>
+                        <p>Desenvolvimento de páginas de alta conversão.</p>
+                    </div>
+                    <div class="card green">
+                        <h3>Google Meu Negócio</h3>
+                        <p>Otimização para busca local e visibilidade.</p>
+                    </div>
+                    <div class="card purple">
+                        <h3>Sistemas</h3>
+                        <p>Sistemas de agendamento e automação.</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Hugo Klhen - Desenvolvedor Independente.</p>
+        <div class="container" style="text-align: center; padding: 20px 0;">
+            <p>&copy; 2026 Hugo Klhen - Desenvolvedor Independente.</p>
+        </div>
     </footer>
 </body>
 </html>
