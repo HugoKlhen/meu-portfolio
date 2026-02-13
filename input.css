@@ -1,1 +1,5 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Se tiver qualquer outro código aqui embaixo, pode deixar, mas essas 3 são obrigatórias */
