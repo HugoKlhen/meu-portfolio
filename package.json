@@ -1,0 +1,26 @@
+{
+  "name": "meu-potfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./input.css -o ./style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoKlhen/meu-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HugoKlhen/meu-portfolio/issues"
+  },
+  "homepage": "https://github.com/HugoKlhen/meu-portfolio#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.24",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18"
+  }
+}
